@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "chatGpt voice assistant",
+    "description": "A chrome Extension for efficient internet browsing",
+    "version": "1.0",
+   
+    "icons": {
+      "16": "images/01_cat.png",
+      "32": "images/02_cat.png",
+      "48": "images/03_cat.png",
+      "128": "images/04_cat.png"
+    },
+    "content_scripts": [
+      {
+        "js": ["scripts/content.js"],
+        "css": ["scripts/content.css"],
+        "matches": ["*://*/*"
+      ]
+        
+      }
+    ]
+    }
